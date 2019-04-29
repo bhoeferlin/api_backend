@@ -737,6 +737,11 @@ public final class Product {
 	}
 
 	public class CategoryTreeEntry {
+	    public CategoryTreeEntry()
+	    {
+	        catId = -1;
+	        name = "not set";
+	    }
 		public long catId;
 		public String name;
 	}
